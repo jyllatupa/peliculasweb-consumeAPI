@@ -1,0 +1,86 @@
+﻿@model PeliculasWeb.Models.ViewModels.PeliculasVM
+@{
+    ViewData["Title"] = "Editar Película";
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<h1 class="text-center mb-4 text-primary">Editar Película</h1>
+
+<div class="row">
+    <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
+        <div class="form-container">
+            <form method="POST" asp-action="Update" enctype="multipart/form-data">
+
+                <input type="hidden" asp-for="Pelicula.Id" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Pelicula.Nombre" class="form-label">Nombre de la Película:</label>
+                    <input asp-for="Pelicula.Nombre" class="form-control" placeholder="Ingresa el nombre de la película" />
+                    <span asp-validation-for="Pelicula.Nombre" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Pelicula.Descripcion" class="form-label">Descripción:</label>
+                    <input asp-for="Pelicula.Descripcion" class="form-control" placeholder="Ingresa la descripción de la película" />
+                    <span asp-validation-for="Pelicula.Descripcion" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Pelicula.Clasificacion" class="form-label">Clasificación:</label>
+                    <select asp-for="Pelicula.Clasificacion" asp-items="Html.GetEnumSelectList<Pelicula.TipoClasificacion>()" class="form-select"></select>
+                    <span asp-validation-for="Pelicula.Clasificacion" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Pelicula.Duracion" class="form-label">Duración (minutos):</label>
+                    <input asp-for="Pelicula.Duracion" class="form-control" placeholder="Ingresa la duración de la película" />
+                    <span asp-validation-for="Pelicula.Duracion" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Categoria" class="form-label">Categoría:</label>
+                    @Html.DropDownListFor(c => c.Pelicula.categoriaId, Model.ListaCategorias,
+                        "-Por favor selecciona una categoría-", new { @class = "form-select" })
+                    <span asp-validation-for="Pelicula.categoriaId" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Imagen" class="form-label">Subir Nueva Imagen:</label>
+                    <input type="file" asp-for="Pelicula.Imagen" class="form-control" name="files" />
+                    <span asp-validation-for="Pelicula.Imagen" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label class="form-label">Imagen Actual:</label>
+                    <div class="text-center">
+                        @if (!string.IsNullOrEmpty(Model.Pelicula.RutaIMagen))
+                        {
+                            <img src="@Model.Pelicula.RutaIMagen" alt="Imagen de la película" class="img-fluid rounded shadow" width="250" />
+                        }
+                        else
+                        {
+                            <p class="text-muted">No hay imagen disponible</p>
+                        }
+                    </div>
+                </div>
+
+                <div class="row g-2">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-primary w-100 py-2">
+                            <i class="fas fa-save"></i> Guardar Cambios
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <a asp-action="Index" class="btn btn-secondary w-100 py-2">
+                            <i class="fas fa-arrow-left me-2"></i> Volver
+                        </a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

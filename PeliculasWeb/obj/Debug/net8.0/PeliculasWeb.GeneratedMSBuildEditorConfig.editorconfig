@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PeliculasWeb
+build_property.RootNamespace = PeliculasWeb
+build_property.ProjectDir = D:\Proyectos\UDEMY\Asp.Net Core\04.Consume una API RESTful con .NET MVC-NET 9\PeliculasWeb\PeliculasWeb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Proyectos\UDEMY\Asp.Net Core\04.Consume una API RESTful con .NET MVC-NET 9\PeliculasWeb\PeliculasWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/IndexBusqueda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleEJ1c3F1ZWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/IndexCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleENhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Home/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Peliculas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Peliculas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Peliculas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos/UDEMY/Asp.Net Core/04.Consume una API RESTful con .NET MVC-NET 9/PeliculasWeb/PeliculasWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jy5l66lm2b

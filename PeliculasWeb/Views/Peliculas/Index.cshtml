@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Lista de Películas";
+}
+
+<div class="container py-5">
+    <div class="row align-items-center mb-4">
+        <div class="col-12 col-md-8">
+            <h2 class="text-primary fw-bold mb-3 mb-md-0">
+                <i class="fas fa-list-alt me-2"></i> Lista de Películas
+            </h2>
+        </div>
+        <div class="col-12 col-md-4 text-md-end">
+            <a asp-action="Create" class="btn btn-success btn-lg shadow-sm">
+                <i class="fas fa-plus me-2"></i> Crear Nueva Película
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm rounded-4 bg-dark text-light">
+        <div class="card-body p-4">
+            <div class="table-responsive">
+                <table id="tblPeliculas" class="table table-dark table-hover table-striped table-bordered align-middle mb-0 rounded-3 overflow-hidden">
+                    <thead class="table-secondary text-dark">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col" style="display:none;">Descripción</th>
+                            <th scope="col">Clasificación</th>
+                            <th scope="col">Duración</th>
+                            <th scope="col">Fecha Creación</th>
+                            <th scope="col" class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí irán las filas generadas por DataTables -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Modal Detalle -->
+<div class="modal fade" id="detalleModal" tabindex="-1" aria-labelledby="detalleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detalleModalLabel">Detalle de Película</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Nombre:</h6>
+                        <p id="detalleNombre"></p>
+                        <h6>Descripción:</h6>
+                        <p id="detalleDescripcion"></p>
+                        <h6>Clasificación:</h6>
+                        <p id="detalleClasificacion"></p>
+                        <h6>Duración:</h6>
+                        <p id="detalleDuracion"></p>
+                        <h6>Fecha de Creación:</h6>
+                        <p id="detalleFechaCreacion"></p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img id="detalleImagen" src="" class="img-fluid rounded" alt="Imagen de la Película">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/pelicula.js"></script>
+}
